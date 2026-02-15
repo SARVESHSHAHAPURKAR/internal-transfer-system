@@ -1,10 +1,8 @@
-### 1. Prerequisites
-* **Java 25 SDK**
-* **Docker & Docker Compose**
-* **Gradle 8.x+** (or use the included `./gradlew` wrapper)
+### Prerequisites
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
 
-### 2. Infrastructure Setup
-Spin up the isolated PostgreSQL database using Docker:
-```bash
-docker-compose up -d
-
+### How to Run
+1. Open your terminal in the project root folder.
+2. Run the following command:
+   ```bash
+   docker-compose up --build
